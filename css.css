@@ -1,0 +1,59 @@
+#firstname{
+    width:250px;
+    height: 30px;
+    padding:1px 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    transition:0.3s
+}
+#firstname:hover{
+    border: 1px solid red;
+}
+#lastname{
+    width:250px;
+    height: 30px;
+    padding:1px 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    transition:0.3s
+}
+#lastname:hover{
+    border: 1px solid red;
+}
+#email{
+    width:250px;
+    height: 30px;
+    padding:1px 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    transition:0.3s
+}
+#email:hover{
+    border: 1px solid red;
+}
+::-webkit-input-placeholder { 
+  color: pink;
+}
+::-moz-placeholder {
+  color: pink;
+}
+:-ms-input-placeholder {
+  color: pink;
+}
+:-moz-placeholder {
+  color: pink;
+}
+input[type="submit"]{
+    width:100px;
+    height: 35px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    background-color: lightgray;
+    border-radius: 2px;
+    transition:.3s;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+    color:white;
+}
